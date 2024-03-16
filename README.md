@@ -1,2 +1,5 @@
-# Tesseract
-HackForge Project on Empowering Sustainable Living
+# Team Tesseract
+
+## Project NEXUS
+
+### HackForge Project on Empowering Sustainable Living
