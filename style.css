@@ -17,7 +17,7 @@ body {
 	padding: 250px 0;
 	color: white;
 }
-.hero-text {
+.hero .text-container {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -44,6 +44,28 @@ body {
 	font-weight: 400;
 }
 
-.hero h1 span {
+.hero span,
+#about-us h1 span {
 	color: #91ea9d;
+}
+
+#about-us {
+	padding: 70px;
+}
+
+#about-us .text-container {
+	max-width: 830px;
+	margin: auto;
+}
+
+#about-us h1 {
+	font-size: 44px;
+	font-weight: bold;
+	letter-spacing: 7px;
+	margin: 60px 0;
+}
+hr {
+	width: 300px;
+	margin: auto;
+	opacity: 1;
 }
