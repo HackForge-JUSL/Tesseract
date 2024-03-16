@@ -8,7 +8,7 @@ body {
 	color: #3a3a38 !important;
 }
 
-.hero {
+#hero {
 	position: relative;
 }
 .hero-img {
@@ -17,7 +17,7 @@ body {
 	padding: 250px 0;
 	color: white;
 }
-.hero .text-container {
+#hero .text-container {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -33,19 +33,19 @@ body {
 	background-color: rgba(0, 0, 0, 0.164);
 	z-index: 0;
 }
-.hero h1 {
+#hero h1 {
 	font-size: 44px;
 	font-weight: bold;
 	letter-spacing: 7px;
 }
-.hero h3 {
+#hero h3 {
 	font-size: 30px;
 	letter-spacing: 6px;
 	font-weight: 400;
 }
 
-.hero span,
-#about-us h1 span {
+#hero span,
+#about-us h1 span, .right-container span {
 	color: #91ea9d;
 }
 
@@ -58,14 +58,49 @@ body {
 	margin: auto;
 }
 
-#about-us h1 {
+#about-us h1,
+#features h1 {
 	font-size: 44px;
 	font-weight: bold;
-	letter-spacing: 7px;
 	margin: 60px 0;
 }
 hr {
 	width: 300px;
 	margin: auto;
 	opacity: 1;
+}
+
+.bg-green {
+	background-color: #8ecd4f;
+}
+
+.card .btn {
+	border: none;
+	color: black;
+}
+.card .btn:hover {
+	background-color: #389733;
+	color: white;
+}
+
+.card {
+	border: none;
+	height: 100%;
+	width: 100%;
+}
+
+.card img {
+	width: 100%;
+}
+
+#features {
+	margin: 100px 200px;
+}
+#features .left-container {
+	width: 1200px;
+}
+
+#features .row{
+	flex-direction: row;
+	width: 100%;
 }

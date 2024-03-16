@@ -26,25 +26,25 @@
 			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 				<ul class="navbar-nav mb-2 mb-lg-0 ml-auto" style="gap: 55px">
 					<li class="nav-item">
-						<a class="nav-link active fs-4 text-black" aria-current="page" href="#">Home</a>
+						<a class="nav-link active fs-4 text-black" aria-current="page" href="#hero">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link active fs-4 text-black" aria-current="page" href="#about-us">About Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active fs-4 text-black" aria-current="page" href="#">Features</a>
+						<a class="nav-link active fs-4 text-black" aria-current="page" href="#features">Features</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active fs-4 text-black" aria-current="page" href="#">Contact Us</a>
+						<a class="nav-link active fs-4 text-black" aria-current="page" href="#contact-us">Contact Us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active fs-4 text-black" aria-current="page" href="#">Sign Up</a>
+						<a class="nav-link active fs-4 text-black" aria-current="page" href="sign-up.html">Sign Up</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	<section class="hero">
+	<section id="hero">
 		<div class="hero-img">
 			<div class="overlay"></div>
 			<div class="text-container">
@@ -66,16 +66,111 @@
 		</div>
 	</section>
 	<hr />
-	<section id="features" class="container-sm">
-		<div class="text-container">
-			<h1 class="text-center text-black">Features <span>Us</span></h1>
-			<p class="text-center text-black h3 pb-3">Welcome to Nexus - your digital gateway to a greener future! 🌿
-				<span class="fw-bold"> Nexus - A sustainable home
-					management system. </span> It
-				provides eco-friendly tips, innovative features and AI Chat Support promoting an eco-friendly
-				generation.
-			</p>
+	<section id="features" >
+		<h1 class="text-left text-black">Features</h1>
+
+		<div class="row row-cols-2">
+			<div class="col left-container">
+				<div class="row row-cols-1 row-cols-md-2 g-4">
+					<div class="col">
+						<div class="card mb-3 shadow p-3 rounded-4">
+							<div class="row g-0">
+								<div class="col-md-4">
+									<img src="./assets/recycle-magic.png" class="img-fluid rounded-start"
+										alt="card-asset">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title fw-bold mb-3">Recycle Magic</h5>
+										<p class="card-text fw-light">Mention an item, receive recycling ideas.</p>
+										<p class="card-text my-4">Provides recycling ideas upon mentioning an item.
+										</p>
+										<button
+											class="btn btn-success bg-green rounded-pill px-5 border-none shadow-sm">Enable</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card mb-3 shadow p-3 rounded-4">
+							<div class="row g-0">
+								<div class="col-md-4">
+									<img src="./assets/energy-usage-monitoring.png" class="img-fluid rounded-start"
+										alt="card-asset">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title fw-bold mb-3">Energy Usage
+											Monitoring</h5>
+										<p class="card-text fw-light">Integration with smart home devices.</p>
+										<p class="card-text my-4">Integration with smart home devices. To keep a tract
+											on daily recourse consumption </p>
+										<button
+											class="btn btn-success bg-green rounded-pill px-5  border-none shadow-sm">Enable</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card mb-3 shadow p-3 rounded-4">
+							<div class="row g-0">
+								<div class="col-md-4">
+									<img src="./assets/carbon-footprint-tracker.png" class="img-fluid rounded-start"
+										alt="card-asset">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title fw-bold mb-3">Carbon Footprint
+											Tracker</h5>
+										<p class="card-text fw-light">Monitoring tool to measure and manage individual
+											or organizational greenhouse gas emissions.</p>
+										<p class="card-text my-4">Tracks individual Carbon emisions.</p>
+										<button
+											class="btn btn-success bg-green rounded-pill px-5 border-none shadow-sm">Enable</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card mb-3 shadow p-3 rounded-4">
+							<div class="row g-0">
+								<div class="col-md-4">
+									<img src="./assets/sustainable-shopping-guide.png" class="img-fluid rounded-start"
+										alt="card-asset">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title fw-bold mb-3">Sustainable Shopping Guides</h5>
+										<p class="card-text fw-light">Discover guilt-free shopping with our curated
+											collection of eco-friendly products.</p>
+										<p class="card-text my-4">Provides details to Eco-friendly product.</p>
+										<button
+											class="btn btn-success bg-green rounded-pill px-5  border-none shadow-sm">Enable</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col right-container">
+				<h3 class="h3 text-left fw-bold">Daily <span>Insights</span></h3>
+				<div class="card" style="width: 18rem;">
+					<img src="..." class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
+							the card's
+							content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
 		</div>
+
 	</section>
 	<script src="script.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
