@@ -4,10 +4,6 @@ body {
 	font-family: "Montserrat", sans-serif;
 }
 
-/* .text-success {
-    color: #054A10 !important;
-} */
-
 .text-black {
 	color: #3a3a38 !important;
 }
@@ -16,7 +12,7 @@ body {
 	position: relative;
 }
 .hero-img {
-	background: url(./assets/hero.jpg) top center / cover no-repeat;
+	background: url(./assets/hero-1.png) bottom center / cover no-repeat;
 	text-align: center;
 	padding: 250px 0;
 	color: white;
@@ -45,7 +41,7 @@ body {
 .hero h3 {
 	font-size: 30px;
 	letter-spacing: 6px;
-    font-weight: 400;
+	font-weight: 400;
 }
 
 .hero h1 span {
